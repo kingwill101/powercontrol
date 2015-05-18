@@ -31,11 +31,11 @@ void Hal::suspend(){
 }
 
 void Hal::hibernate(){
-    halCall("hibernate");
+    halCall("Hibernate");
 }
 
 void Hal::restart(){
-    halCall("reboot");
+    halCall("Reboot");
 }
 
 void Hal::halCall(QString method){
