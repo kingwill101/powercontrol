@@ -1,0 +1,3 @@
+module papyros.Desktop.powerControl
+plugin powerControl
+
